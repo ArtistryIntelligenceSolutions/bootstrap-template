@@ -1,0 +1,25 @@
+@import "../my-variables";
+@import "../my-mixins";
+@import "../helper-classes";
+
+h1,
+.jumbotron {
+  &.no-gutter {
+    @include no-gutter(margin-bottom);
+  }
+}
+
+.container,
+.container-fluid {
+  .no-gutter {
+    @include no-gutter(margin-bottom);
+  }
+}
+
+.container,
+.container-fluid {
+  .no-padding {
+    @include no-padding(padding-right);
+    @include no-padding(padding-left);
+  }
+}

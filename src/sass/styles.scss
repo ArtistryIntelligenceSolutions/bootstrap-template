@@ -1,5 +1,30 @@
 // Libraries
-@import "../../node_modules/bootstrap/dist/css/bootstrap.min";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "./bootstrap-variables";
+@import "./bootstrap-amendments";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+// SCSS Specific
+@import "./my-variables";
+@import "./helper-classes";
+@import "./my-mixins";
+
+// Components
+@import "./components/about-component";
+@import "./components/call-to-action-component";
+@import "./components/client-carousel-component";
+@import "./components/contact-component";
+@import "./components/footer-component";
+@import "./components/header-component";
+@import "./components/home-component";
+@import "./components/modal-window-component";
+@import "./components/nav-component";
+@import "./components/not-found-component";
+
+// Fluid Layout
+@import "./responsive.mobile";
+@import "./responsive.tablet";
+@import "./responsive.desktop";
 
 // Stylesheets
 @import "./preloader";

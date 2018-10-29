@@ -1,0 +1,8 @@
+@import "../my-variables";
+@import "../my-mixins";
+@import "../helper-classes";
+
+.ngb-carousel img {
+  display: block;
+  margin: 0 auto;
+}

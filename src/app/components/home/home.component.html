@@ -1,3 +1,4 @@
+<!-- Carousel -->
 <ngb-carousel *ngIf="images" class="ngb-carousel">
   <ng-template ngbSlide>
     <img [src]="images[0]" alt="Random first slide">
@@ -28,14 +29,22 @@
     </div>
   </ng-template>
 </ngb-carousel>
-<section class="py-5">
+<!-- Welcome Notice -->
+<section class="py-5 background-off-white">
   <div class="container">
-    <h1 class="display-4">Half Page Image Slider</h1>
-    <p class="lead">The background images for the slider are set directly in the HTML using inline CSS. The images in this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
+    <div class="row">
+      <div class="col">
+        <h1>Half Page Image Slider</h1>
+        <p>The background images for the slider are set directly in the HTML using inline CSS. The images in
+          this snippet are from <a href="https://unsplash.com">Unsplash</a>!</p>
+      </div>
+    </div>
   </div>
 </section>
+<!-- Call To Action -->
+<call-to-action></call-to-action>
 <section>
-  <div class="container">
+  <div class="container background-off-white">
     <h1 class="my-4">Page Heading
       <small>Secondary Text</small>
     </h1>
@@ -47,7 +56,9 @@
             <h4 class="card-title">
               <a href="#">Project One</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum
+              quasi sapiente nesciunt? Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum
+              tempora ex quae? Nihil, dolorem!</p>
           </div>
         </div>
       </div>
@@ -58,7 +69,8 @@
             <h4 class="card-title">
               <a href="#">Project Two</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+              gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
@@ -69,7 +81,9 @@
             <h4 class="card-title">
               <a href="#">Project Three</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod
+              sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis
+              mollitia recusandae vero vel quam!</p>
           </div>
         </div>
       </div>
@@ -80,10 +94,15 @@
             <h4 class="card-title">
               <a href="#">Project Four</a>
             </h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio,
+              gravida pellentesque urna varius vitae.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
+<!-- Client Logo Carousel -->
+<section>
+  <app-client-carousel></app-client-carousel>
 </section>

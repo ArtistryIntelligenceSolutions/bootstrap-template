@@ -1,0 +1,37 @@
+@import "../my-variables";
+@import "../my-mixins";
+@import "../helper-classes";
+
+.footer {
+  padding-top: 80px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.footer-widget {
+  padding-bottom: 50px;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 44px;
+}
+
+.footer-widget ul li a {
+  text-transform: capitalize;
+  font-size: 17px;
+  display: block;
+  font-weight: 600;
+}
+
+.newsletter-form {
+  padding-top: 15px;
+}
+
+.tiny-footer {
+  font-size: 14px;
+  padding: 14px 0px;
+  font-weight: 600;
+  line-height: 1;
+}
